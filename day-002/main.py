@@ -34,3 +34,12 @@ print(name_len_report)
 #we can cast the int into a float as well
 new_name_len = float(name_len)
 print(new_name_len)
+
+### logical operators
+# parathesis (), Exponent **, Multiplication *, Division /, Addition +, Substraction -
+#logical operators go in the order of PEMDAS left to right that is () ** * / + -
+
+print(3 * 3 + 3/3 - 3)
+# addition of a float and integer always results into a float
+
+print(3*(3+3)/3-3)
