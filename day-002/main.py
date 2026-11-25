@@ -43,3 +43,26 @@ print(3 * 3 + 3/3 - 3)
 # addition of a float and integer always results into a float
 
 print(3*(3+3)/3-3)
+
+### rounding up the results
+# to round up the results the easy way is to cast it into an int, but we can also use the round() function
+print(8/3)
+# the default result is an int
+print(round(8/3))
+print(type(round(8/3)))
+print(round((8/3), 2))
+# another way is to use // which would show the int value of the result
+print(9//2)
+
+# we also can use -= or += and so on for each operation instead of using the same variable to reassign a new value to it after addin an operation to it
+result = 4/2
+#result = result / 2
+result /= 2
+print(result)
+
+### f-strings
+# Instead of using "" + ... we can use f"" to be able to put our variable values in {} for better and faster pace
+score = 0
+score += 1
+print(f"Your score is {score}.")
+
