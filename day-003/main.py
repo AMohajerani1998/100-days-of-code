@@ -17,3 +17,7 @@ else:
     print("Sorry, you have to grow taller before you can ride.")
 
 # comparison operators include == != >= <=
+
+# and: both conditions must be True
+# or: at least one condition must be True
+# not: reverses True and False
