@@ -82,3 +82,9 @@ print(all_fruits)
 string = "john, ash, max"
 names = string.split(", ")
 print(names)
+
+# nested lists:
+list1 = ["item1", "item2", "item3"]
+list2 = ["category1", "category2", "category3"]
+nested = [list1, list2]
+print(nested)
