@@ -77,3 +77,8 @@ print(fruits)
 fruits2 = ["banana", "coconut"]
 all_fruits = fruits + fruits2
 print(all_fruits)
+
+# two split a string and turn it into a list:
+string = "john, ash, max"
+names = string.split(", ")
+print(names)
