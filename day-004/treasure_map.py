@@ -6,12 +6,9 @@ print("Hiding your treasure! X marks the spot.")
 position = input("Where do you want to put the treasure? ").lower()
 
 column = position[0]
-if column == "a":
-    column = 0
-elif column == "b":
-    column = 1
-elif column == "c":
-    column = 2
+columns = ["a", "b", "c"]
+if column in columns:
+    column = columns.index(column)
 else:
     print("Bad input! retry...")
 row = (int(position[1]) -1)
